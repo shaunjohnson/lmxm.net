@@ -22,7 +22,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.3em; }
 
 p { margin: 1em 0; }
 
@@ -75,7 +76,6 @@ my-email::before { content: attr(data-user) "\0040"; }
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
 }
 
 .title a {
@@ -104,7 +104,7 @@ my-email::before { content: attr(data-user) "\0040"; }
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2em;
+  margin-top: 3em;
   overflow: hidden;
 }
 
@@ -134,6 +134,11 @@ my-email::before { content: attr(data-user) "\0040"; }
 /*****************************************************************************/
 
 /* standard */
+.post-separator {
+  border-top: 4px solid #eee;
+  margin: 2em 0;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
