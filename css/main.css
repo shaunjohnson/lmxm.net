@@ -31,6 +31,11 @@ a:link    { color: #00a; }
 a:visited { color: #00a; }
 a:hover   { color: #a0a; }
 
+ul.unstyled {
+  list-style: none;
+  margin-left: 2em;
+}
+
 my-email         { color: #666; }
 my-email::after  { content: attr(data-domain); }
 my-email::before { content: attr(data-user) "\0040"; }
@@ -60,7 +65,6 @@ my-email::before { content: attr(data-user) "\0040"; }
 /* Site
 /*
 /*****************************************************************************/
-
 .site {
   font-size: 115%;
   text-align: justify;
