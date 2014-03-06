@@ -1,0 +1,4 @@
+name: LMXM
+markdown: redcarpet
+pygments: true
+paginate: 5
